@@ -1,0 +1,33 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="Main">
+	
+	
+	<div class="container">
+		<div class="row">
+			<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '3'}" />
+	
+			<div class="col-md-12 main-column" role="main">
+				<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '0'}" />
+				
+				<div class="row middle-main-2-columns">
+					<div class="col-md-6">
+						<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '30'}" />
+					</div>
+					<div class="col-md-6">
+						<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '31'}" />
+					</div>
+				</div>
+				
+				<f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '4'}" />
+			
+			</div>
+			
+		</div>
+	</div>
+
+</f:section>
+<f:section name="Footer">
+    <f:render partial="Structure/FooterContent" arguments="{_all}" />
+</f:section>
+</html>

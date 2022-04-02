@@ -1,0 +1,203 @@
+<f:layout name="Default"/>
+<f:section name="Header"></f:section>
+<f:section name="Main">
+
+  <div class="row cprow">
+
+   <f:debug>{data}</f:debug>
+  <f:if condition="{data.layout}==19">
+			<div class="col-md-1">
+        		<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+        	<div class="col-md-11">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+       		</div>
+   
+  </f:if>
+  
+  
+  
+  <f:if condition="{data.layout}==20">
+  		<div class="col-md-2">
+            	<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+			<div class="col-md-10">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+        </div>
+  </f:if>
+  
+  <f:if condition="{data.layout}==21">
+  	<div class="col-md-3">
+            	<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+			<div class="col-md-9">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+        	</div>
+  
+  </f:if>
+ 
+ 
+ 
+  <f:if condition="{data.layout}==22">
+      		<div class="col-md-4">
+            	<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+			<div class="col-md-8">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+        	</div>
+  
+  </f:if>
+  
+  
+  
+  <f:if condition="{data.layout}==23">
+  	<div class="col-md-8">
+        <f:render partial="Header/All" arguments="{_all}" />
+        <f:format.html>{data.bodytext}</f:format.html>
+    </div>
+	<div class="col-md-4">
+         	<f:render partial="Media/Gallery" arguments="{_all}" />
+    </div>
+  </f:if>
+  
+  <f:if condition="{data.layout}==24">
+    	    <div class="col-md-9">
+            	<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+			<div class="col-md-3">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+        	</div>
+  
+  </f:if>
+  
+  <f:if condition="{data.layout}==25">
+  	<div class="col-md-10">
+            	<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+			<div class="col-md-2">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+       	</div>
+  </f:if>
+   
+   <f:if condition="{data.layout}==26">
+    	<div class="col-md-11">
+            	<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        </div>
+		<div class="col-md-1">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+        
+        </div>
+    </f:if>
+  
+
+    </div>
+
+</f:section>
+
+
+
+// layout is integer, cas kann unter 8.7 nur strings
+  <f:switch expression="\"{data.layout}\"">
+        <f:case default="19">
+       		<div class="col-md-6">
+        		<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+        	<div class="col-md-6">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+       		</div>
+        </f:case>
+        <f:case value="20">
+    		<div class="col-md-2">
+            	<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+			<div class="col-md-10">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+        	</div>
+    	</f:case>
+          
+        <f:case value="21">
+    		<div class="col-md-3">
+            	<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+			<div class="col-md-9">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+        	</div>
+    	</f:case>
+                        
+    	<f:case value="22">
+    		<div class="col-md-4">
+            	<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+			<div class="col-md-8">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+        	</div>
+    	</f:case>
+
+    	<f:case value='23'>
+    		<div class="col-md-8">
+            	<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+			<div class="col-md-4">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+        	</div>
+    	</f:case>
+    	
+    	<f:case value='24'>
+    	 <h1>here is {data.layout}</h1>
+    	    <div class="col-md-9">
+            	<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+			<div class="col-md-3">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+        	</div>
+    	</f:case>
+    	
+    	<f:case value="25">
+    	
+    		<div class="col-md-10">
+            	<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+			<div class="col-md-2">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+        	</div>
+
+    	</f:case>
+    	
+    	<f:case value="26">
+    		<div class="col-md-11">
+            	<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+			<div class="col-md-1">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+        	</div>
+
+    	</f:case>
+
+ 		<f:defaultCase>
+       	 <h1>Default is {data.layout}</h1>
+       		<div class="col-md-6">
+        		<f:render partial="Header/All" arguments="{_all}" />
+            	<f:format.html>{data.bodytext}</f:format.html>
+        	</div>
+        	<div class="col-md-6">
+            	<f:render partial="Media/Gallery" arguments="{_all}" />
+       		</div>
+         </f:defaultCase>
+    </f:switch>
+
+

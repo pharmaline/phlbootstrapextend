@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "phlbootstrapextend",
+        "name": "phlbootstrap_extend",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "Pharmaline",
+                "email": "christian.platt@pharmaline.de",
+                "name": "Christian Platt",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "Pharmaline"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2019-05-30 07:59",
+        "extension_builder_version": "8.10.4",
+        "be_user": "Christian Platt (1)"
+    }
+}

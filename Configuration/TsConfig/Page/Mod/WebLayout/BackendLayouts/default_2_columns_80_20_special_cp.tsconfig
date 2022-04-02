@@ -1,0 +1,91 @@
+################################################
+#### BACKENDLAYOUT: DEFAULT 2 COLUMNS 80/20 CP ####
+################################################
+mod {
+	web_layout {
+		BackendLayouts {
+			default_2_columns_80_20_special_cp {
+				title = LLL:EXT:phlbootstrapextend/Resources/Private/Language/Backend.xlf:backend_layout.default_2_columns_80_20_special_cp
+				config {
+					backend_layout {
+						colCount = 12
+						rowCount = 5
+						rows {
+							1 {
+								columns {
+									1 {
+										name = LLL:EXT:phlbootstrapextend/Resources/Private/Language/Backend.xlf:backend_layout.column.colPos.I.3
+										colPos = 3
+										colspan = 12
+									}
+								}
+							}
+							2 {
+								columns {
+									1 {
+										name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.0
+										colPos = 1
+										colspan = 4
+									}
+									2 {
+										name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.1
+										colPos = 0
+										colspan = 4
+									}
+									3 {
+										name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.2
+										colPos = 2
+										colspan = 4
+									}
+								}
+							}
+							3{
+								columns{
+									1{
+										name = LLL:EXT:phlbootstrapextend/Resources/Private/Language/Backend.xlf:backend_layout.column.middle1
+										colPos = 30
+										colspan = 6
+									}
+									2{
+										name = LLL:EXT:phlbootstrapextend/Resources/Private/Language/Backend.xlf:backend_layout.column.middle2
+										colPos = 31
+										colspan = 6
+									}
+								}
+							}
+							4 {
+								columns {
+									1 {
+										name = LLL:EXT:phlbootstrapextend/Resources/Private/Language/Backend.xlf:backend_layout.column.main2
+										colPos = 4
+										colspan = 12
+									}
+								}
+							}
+							5 {
+								columns {
+									1 {
+										name = LLL:EXT:phlbootstrapextend/Resources/Private/Language/Backend.xlf:backend_layout.column.footer1
+										colPos = 10
+										colspan = 4
+									}
+									2 {
+										name = LLL:EXT:phlbootstrapextend/Resources/Private/Language/Backend.xlf:backend_layout.column.footer2
+										colPos = 11
+										colspan = 4
+									}
+									3 {
+										name = LLL:EXT:phlbootstrapextend/Resources/Private/Language/Backend.xlf:backend_layout.column.footer3
+										colPos = 12
+										colspan = 4
+									}
+								}
+							}
+						}
+					}
+				}
+				icon = EXT:phlbootstrapextend/Resources/Public/Icons/BackendLayouts/default_2_columns_80_20_special_cp.svg
+			}
+		}
+	}
+}

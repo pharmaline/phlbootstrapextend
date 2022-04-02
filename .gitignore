@@ -21,3 +21,11 @@
 /index.php
 # Ignore temp directory.
 /typo3temp/
+# Ignore Mac DS_Store
+.DS_Store
+._.DS_Store
+.DS_Store?
+*.DS_Store
+*/.DS_Store
+**/.DS_Store
+**/._.DS_Store

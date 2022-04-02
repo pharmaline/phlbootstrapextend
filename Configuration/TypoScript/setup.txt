@@ -1,0 +1,14 @@
+# Einstellung für Sources textpic und so
+tt_content.textpic.templateRootPaths.10 = typo3conf/ext/phlbootstrapextend/Resources/Private/Templates/ContentElements/
+tt_content.textpic.partialRootPaths.10 = typo3conf/ext/phlbootstrapextend/Resources/Private/Partials/ContentElements/
+
+
+
+
+# Backend Layout Override
+page.10 {
+
+	templateRootPaths {
+        2 = EXT:phlbootstrapextend/Resources/Private/Templates/Page/
+    }
+}
