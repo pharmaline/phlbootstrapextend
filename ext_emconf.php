@@ -1,4 +1,4 @@
-<?php
+<?php /** @noinspection PhpUndefinedVariableInspection */
 
 /***************************************************************
  * Extension Manager/Repository config file for ext: "phlbootstrapextend"
@@ -20,12 +20,12 @@ $EM_CONF[$_EXTKEY] = [
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '1.0.5',
+    'version' => '1.0.6',
     'constraints' => [
-        	'depends' => [
-        	    'typo3' => '9.5.0-9.5.99',
-        	],
-        'conflicts' => [],
-        'suggests' => [],
+            'depends' => [
+                'typo3' => '9.5.0-9.5.99',
+            ],
+            'conflicts' => [],
+            'suggests' => [],
     ],
 ];

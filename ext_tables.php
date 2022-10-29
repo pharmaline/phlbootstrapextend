@@ -2,11 +2,9 @@
 defined('TYPO3_MODE') || die('Access denied.');
 
 call_user_func(
-    function()
-    {
+    function () {
 
 
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('phlbootstrapextend', 'Configuration/TypoScript', 'phlbootstrap_extend');
-
     }
 );
