@@ -105,9 +105,9 @@
 
 
 
-// layout is integer, cas kann unter 8.7 nur strings
-  <f:switch expression="\"{data.layout}\"">
-        <f:case default="19">
+<f:comment>Switch does not work with integers in 8.7</f:comment>
+  <f:switch expression="{data.layout}">
+        <f:case value="19">
        		<div class="col-md-6">
         		<f:render partial="Header/All" arguments="{_all}" />
             	<f:format.html>{data.bodytext}</f:format.html>
