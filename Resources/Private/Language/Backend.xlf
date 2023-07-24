@@ -100,6 +100,9 @@
 			<trans-unit id="backend_layout.textpicleft.6-6">
 				<source>Textpicleft 6P - 6T</source>
 			</trans-unit>
+			<trans-unit id="backend_layout.textpicleft.1-11">
+				<source>Textpicleft 11P - 1T</source>
+			</trans-unit>
 			<trans-unit id="backend_layout.textpicleft.2-10">
 				<source>Textpicleft 10P - 2T</source>
 			</trans-unit>

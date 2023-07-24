@@ -9,4 +9,4 @@
 ###<INCLUDE_TYPOSCRIPT: source="DIR:EXT:phlbootstrapextend/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts" extensions="txt">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:phlbootstrapextend/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts" extensions="tsconfig">
 
-TCEFORM.tt_content.layout.addItems.10 = Layout Spezialseite plugin
+#TCEFORM.tt_content.layout.addItems.10 = Layout Spezialseite plugin
